@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom'
 function MainApp() {
   return (
     <div className='app'>
+      <h1>hola</h1>
       <Routes>
         <Route path='/' element={<Landing/>}/>
         <Route path='/home' element={<Home/>}/>
