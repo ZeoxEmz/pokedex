@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import './App.css'
 import { Create } from './components/create/create'
 import { Detail } from './components/detail/detail'
@@ -6,8 +7,9 @@ import { Landing } from './components/landing/landing'
 import { Route, Routes } from 'react-router-dom'
 
 function App() {
-
-  return (
+  useEffect(() => {
+    console.log('Permissions-Policy:', document.currentScript.crossOrigin);
+  }, []);  return (
     <div className='app'>
       <Routes>
         <Route path='/' element={<Landing/>}/>
