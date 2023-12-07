@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    background-color: #4dafe8a6;
+    border-radius: 1em;
+    padding: 1em;
+}
+.card:hover{
+    transform: translatey(-5%);
+}
+.link{
+    color: #292929;
+    text-decoration: none;
+}
+.pokemon_name{
+    text-shadow: 7px 7px 7px #41414a;
+}
+.types_title{
+    color: #3c680e;
+    text-shadow: 7px 7px 7px #41414a;
+}
+.types{
+    display: flex;
+    gap: 1em;
+}
+.type{
+    border-radius: 0.3em;
+    padding: 0.3em;
+}

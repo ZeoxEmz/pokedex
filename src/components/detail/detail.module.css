@@ -1,0 +1,81 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: #4dafe8a6;
+    width: 100%;
+    height: 100%;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10em;
+
+    background-color: aquamarine;
+    border-radius: 1em;
+    padding: 1em;
+        
+}
+.pokemon{
+    color: #1299cf;
+}
+
+.mid{
+    display: flex;
+    gap: 5em;
+}
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    padding: 1em;
+    background-color: cadetblue;
+    border-radius: 1em;
+    width: 50%;
+    box-sizing: border-box;
+    
+}
+.rows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: #53e546;
+    text-shadow: 7px 7px 7px #41414a;
+}
+.value{
+    color: #fff;
+    font-weight: 600;
+}
+
+.detail_img{
+    height: 20em;
+    background-color: antiquewhite;
+    border-radius: 1em;
+    width: 50%;
+}
+
+.types{
+    display: flex;
+    gap: 1em;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.type{
+    padding: .3em;
+    border-radius: .3em;
+}
