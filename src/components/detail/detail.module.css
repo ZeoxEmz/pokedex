@@ -27,8 +27,18 @@
 .mid{
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 5em;
 }
+
+.detail_img{
+    height: 100%;
+    background-color: antiquewhite;
+    border-radius: 1em;
+    width: fit-content;
+}
+
 .table{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -54,13 +64,6 @@ span{
 .value{
     color: #fff;
     font-weight: 600;
-}
-
-.detail_img{
-    height: 20em;
-    background-color: antiquewhite;
-    border-radius: 1em;
-    width: 50%;
 }
 
 .types{
