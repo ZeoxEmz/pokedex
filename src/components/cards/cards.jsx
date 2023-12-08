@@ -3,7 +3,7 @@ import { Card } from "../card/card"
 import styles from "./cards.module.css"
 
 export function Cards({pokemons,isLoading}) {
-    if(isLoading) return <p>loading...</p>
+    if(isLoading) return <p className={styles.p}>loading...</p>
     return(
         <div className={styles.cards}>
             {pokemons.length > 0 && pokemons.map(({id,name,weight,height,types,image})=>(
