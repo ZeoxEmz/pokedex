@@ -8,7 +8,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
-    <BrowserRouter basename="https://zeoxemz.github.io/pokedex">
+    <BrowserRouter basename="/pokedex">
         <MainApp  />
     </BrowserRouter>
   </Provider>
