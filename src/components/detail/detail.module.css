@@ -25,6 +25,7 @@
 }
 
 .mid{
+    width: 100%;
     display: flex;
     gap: 5em;
 }
@@ -35,7 +36,7 @@
     padding: 1em;
     background-color: cadetblue;
     border-radius: 1em;
-    width: 50%;
+    width: auto;
     box-sizing: border-box;
     
 }
