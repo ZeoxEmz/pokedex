@@ -11,7 +11,7 @@ export function SearchBar() {
     const [name,setName] = useState("")
 
     const handleInputChange = (event)=>{
-        setName(event.target.value)
+        setName(event.target.value.toLowerCase())
     }
     const handleKeyPress = (event) => {
         // Verificar si la tecla presionada es Enter (código 13)
