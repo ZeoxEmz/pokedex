@@ -67,15 +67,6 @@ span{
     display: flex;
     gap: 1em;
 }
-
-.loading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-}
-
 .type{
     padding: .3em;
     border-radius: .3em;
