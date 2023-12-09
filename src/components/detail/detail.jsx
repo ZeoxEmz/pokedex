@@ -19,7 +19,7 @@ export function Detail() {
             }
         },[dispatch,id])
 
-        if (Object.keys(pokemon).length === 0) return <div className={styles.loading}>Cargando...</div>
+        if (Object.keys(pokemon).length === 0) return <p className={styles.loading}>Cargando...</p>
 
         const {name,height,weight,types,image,attack,defense,hp,specialAttack,specialDefense,speed} = pokemon
         const stats = [{height},{weight},{attack},{defense},{hp},{specialAttack},{specialDefense},{speed}]
