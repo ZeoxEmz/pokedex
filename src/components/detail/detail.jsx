@@ -27,10 +27,7 @@ export function Detail() {
     return(
         <div className={styles.detail}>
 
-            <div className={styles.head}>
-                <h1 className={styles.pokemon}>{name}</h1>
-                <h2 className={styles.pokemon}>N.°  {id}</h2>
-            </div>
+            <h1 className={styles.pokemon}>{name} N.° {id}</h1>
 
             <div className={styles.mid}>
                 <img className={styles.detail_img} src={image} alt={`imagen de ${name}`} />
