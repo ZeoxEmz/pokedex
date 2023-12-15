@@ -10,6 +10,7 @@
 }
 
 .pokemon{
+    box-sizing: border-box;
     background-color: aquamarine;
     color: #1299cf;
     border-radius: 1em;
