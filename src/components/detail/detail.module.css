@@ -70,6 +70,9 @@ span{
     border-radius: .3em;
 }
 @media (max-width:950px) {
+    .detail{
+        height: auto;
+    }
     .head{
         width: 100%;
         height: 10%;
@@ -78,10 +81,13 @@ span{
     }
     .mid{
         flex-direction: column;
-        width: 50%;        
+        width: 80%;        
     }
     .img{
         height: fit-content;
+        width: 100%;
+    }
+    .table{
         width: 100%;
     }
 }
