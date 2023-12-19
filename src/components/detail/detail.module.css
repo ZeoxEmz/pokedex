@@ -70,9 +70,6 @@ span{
     border-radius: .3em;
 }
 @media (max-width:950px) {
-    .detail{
-        height: auto;
-    }
     .head{
         width: 100%;
         height: 10%;
