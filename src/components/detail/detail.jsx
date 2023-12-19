@@ -26,23 +26,25 @@ export function Detail() {
     return(
         <div className={styles.detail}>
 
-            <div className={styles.content}>
 
                 <h1 className={styles.pokemon}>{name} N.° {id}</h1>
+                
+                <div className={styles.mid}>
 
-                <img className={styles.detail_img} src={image} alt={`imagen de ${name}`} />
+                    <img className={styles.detail_img} src={image} alt={`imagen de ${name}`} />
 
-                <div className={styles.table}>
-                    {stats.map((stat,key)=>{
-                        const [statName,statValue] = Object.entries(stat)[0]
-                            
-                        return(
-                            <div className={styles.rows} key={key}>
-                                <span>{statName}</span>
-                                <p className={styles.value}>{statValue}</p>
-                            </div>
-                        )
-                    })}
+                    <div className={styles.table}>
+                        {stats.map((stat,key)=>{
+                            const [statName,statValue] = Object.entries(stat)[0]
+                                
+                            return(
+                                <div className={styles.rows} key={key}>
+                                    <span>{statName}</span>
+                                    <p className={styles.value}>{statValue}</p>
+                                </div>
+                            )
+                        })}
+                    </div>
                 </div>
 
                 <div className={styles.types}>
@@ -52,7 +54,5 @@ export function Detail() {
                 </div>
 
             </div>
-            
-        </div>
     )
 }
