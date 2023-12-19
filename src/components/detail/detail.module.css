@@ -107,6 +107,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2em;
 }
 .pokemon{
     padding: 0.7em;
@@ -168,7 +169,6 @@ span{
     .mid{
         flex-direction: column;
         width: 80%;
-        gap: 2em;
     }
     .detail_img{
         width: 100%;
