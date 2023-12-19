@@ -163,7 +163,7 @@ span{
 }
 
 @media (max-width:950px){
-    .media{
+    .mid{
         flex-direction: column;
         width: 80%;
     }
