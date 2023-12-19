@@ -100,6 +100,7 @@ span{
     justify-content: space-between;
     align-items: center;
     padding: 1em;
+    gap: 2em;
 }
 .mid{
     height: 50%;
@@ -132,6 +133,7 @@ span{
 }
 .loading{
     width: 100vw;
+    height: 100vh;
 
     display: flex;
     place-content: center;
@@ -166,6 +168,7 @@ span{
     .mid{
         flex-direction: column;
         width: 80%;
+        gap: 2em;
     }
     .detail_img{
         width: 100%;
