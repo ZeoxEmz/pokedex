@@ -88,7 +88,10 @@ span{
         width: 100%;
     }
 } */
-
+.link_img{
+    padding: 1em;
+    background-color: #555a5c;
+}
 .detail{
     box-sizing: border-box;
     width: 100vw;

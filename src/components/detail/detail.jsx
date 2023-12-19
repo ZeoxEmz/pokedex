@@ -2,8 +2,9 @@ import styles from "./detail.module.css"
 import { TypesColor } from "../../styles/pokemonTypeStyles"
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { clearDetail, getDetail } from "../../redux/action"
+import back from "../../../images/back.svg"
 
 
 export function Detail() {
@@ -26,7 +27,7 @@ export function Detail() {
     return(
         <div className={styles.detail}>
 
-
+                <Link to="/home"><img className={styles.link_img} src={back} alt="volver al home" /></Link>
                 <h1 className={styles.pokemon}>{name} N.° {id}</h1>
                 
                 <div className={styles.mid}>
