@@ -10,7 +10,6 @@ export function Detail() {
         const {id} = useParams()    
         const dispatch = useDispatch()
         const pokemon = useSelector(state=>state.detail)
-
         
         useEffect(()=>{
             dispatch(getDetail(id))
@@ -27,14 +26,16 @@ export function Detail() {
     return(
         <div className={styles.detail}>
 
-            <h1 className={styles.pokemon}>{name} N.° {id}</h1>
+            <div className={styles.content}>
 
-            <div className={styles.mid}>
+                <h1 className={styles.pokemon}>{name} N.° {id}</h1>
+
                 <img className={styles.detail_img} src={image} alt={`imagen de ${name}`} />
-                <div className={styles.table}>         
+
+                <div className={styles.table}>
                     {stats.map((stat,key)=>{
                         const [statName,statValue] = Object.entries(stat)[0]
-                        
+                            
                         return(
                             <div className={styles.rows} key={key}>
                                 <span>{statName}</span>
@@ -43,14 +44,14 @@ export function Detail() {
                         )
                     })}
                 </div>
-            </div>
 
-            <div className={styles.types}>
-                {types.map((type,key)=>{
-                    return (<h2  className={`${styles.type} ${TypesColor[type]}`} key={key}>{type}</h2>)
-                })}
-            </div>
+                <div className={styles.types}>
+                    {types.map((type,key)=>{
+                        return (<h2  className={`${styles.type} ${TypesColor[type]}`} key={key}>{type}</h2>)
+                    })}
+                </div>
 
+            </div>
             
         </div>
     )
