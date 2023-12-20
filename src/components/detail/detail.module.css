@@ -105,6 +105,12 @@ span{
     padding: 1em;
     gap: 2em;
 }
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
 .mid{
     height: 50%;
     display: flex;
