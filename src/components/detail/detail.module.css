@@ -88,10 +88,7 @@ span{
         width: 100%;
     }
 } */
-.link_img{
-    padding: 1em;
-    background-color: #555a5c;
-}
+
 .detail{
     box-sizing: border-box;
     width: 100vw;
@@ -105,11 +102,10 @@ span{
     padding: 1em;
     gap: 2em;
 }
-.head{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
+.link_img{
+    padding: 1em;
+    background-color: #555a5c;
+    border-radius: 1em;
 }
 .mid{
     height: 50%;

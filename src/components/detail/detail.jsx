@@ -26,10 +26,9 @@ export function Detail() {
         
     return(
         <div className={styles.detail}>
-                <div className={styles.head}>
-                    <Link to="/home"><img className={styles.link_img} src={back} alt="volver al home" /></Link>
-                    <h1 className={styles.pokemon}>{name} N.° {id}</h1>
-                </div>
+            
+                <Link to="/home"><img className={styles.link_img} src={back} alt="volver al home" /></Link>
+                <h1 className={styles.pokemon}>{name} N.° {id}</h1>
                 
                 <div className={styles.mid}>
 
