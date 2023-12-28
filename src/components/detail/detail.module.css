@@ -148,7 +148,8 @@ span{
     height: 100vh;
 
     display: flex;
-    place-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .rows{
