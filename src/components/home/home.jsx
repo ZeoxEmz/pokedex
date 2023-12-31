@@ -25,6 +25,7 @@ export function Home() {
             <div className={styles.divHero}>
 
                 <div className={styles.filterDiv}>
+                    <label htmlFor="orderSelect">Ordenar por:</label>
                     <select onChange={handleOrderChange}>
                         <option value="">Orden</option>
                         <option value="asc">Ascendente</option>
