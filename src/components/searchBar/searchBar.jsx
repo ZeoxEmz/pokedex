@@ -26,8 +26,8 @@ export function SearchBar() {
     return(
         <div className={styles.divSearch}>
             <img className={styles.snorlax} src={snorlax} alt="imagen del pokemon snorlax" />
-            <input onKeyDown={handleKeyPress} name="name" placeholder="Pikachu,Snorlax,Ratata..." onChange={handleInputChange} className={styles.input} type="text" />
-            <button title="Haga clic para buscar el pokemon" onClick={SearchPokemon} className={styles.button}><img className={styles.search} src={buscar} alt="Buscar Pokemon" /></button>
+            <input autoComplete="name" onKeyDown={handleKeyPress} name="name" placeholder="Pikachu,Snorlax,Ratata..." onChange={handleInputChange} className={styles.input} type="text" />
+            <button type="submit" title="Haga clic para buscar el pokemon" onClick={SearchPokemon} className={styles.button}><img className={styles.search} src={buscar} alt="Buscar Pokemon" /></button>
         </div>
     )
 }

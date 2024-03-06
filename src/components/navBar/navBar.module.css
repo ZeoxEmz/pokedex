@@ -13,6 +13,9 @@
     padding-right: 1em;
     box-sizing: border-box;
 }
+.navBar a{
+    font-style: normal;
+}
 .inicio{
     display: flex;
     justify-content: center;
@@ -22,12 +25,13 @@
         height: 5.5vh;
     }
     .inicio_title{
-        color: #FFCB05;
+        color: #ffd805;
+        text-decoration: none;
     }
 }
 .create{
     text-decoration: none;
-    color: #FFCB05;
+    color: #ffd805;
 }
 .div{
     width: 100%;

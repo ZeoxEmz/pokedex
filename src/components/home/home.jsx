@@ -25,8 +25,7 @@ export function Home() {
             <div className={styles.divHero}>
 
                 <div className={styles.filterDiv}>
-                    <label htmlFor="orderSelect">Ordenar por:</label>
-                    <select onChange={handleOrderChange}>
+                    <select id="select" onChange={handleOrderChange} title="Seleccionar Orden">
                         <option value="">Orden</option>
                         <option value="asc">Ascendente</option>
                         <option value="desc">Descendente</option>
@@ -38,8 +37,8 @@ export function Home() {
                 {pokemons.length > 0 && <Cards isLoading={isLoading} pokemons={pokemons}/>}
 
                 <div className={styles.buttons_div}>
-                    <button className={styles.button} onClick={prevPage}>prevPage</button>
-                    <button className={styles.button} onClick={nextPage}>nextPage</button>
+                    <button type="button" className={styles.button} onClick={prevPage}>prevPage</button>
+                    <button type="button" className={styles.button} onClick={nextPage}>nextPage</button>
                 </div>
 
             </div>
