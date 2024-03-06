@@ -13,20 +13,16 @@
     padding-right: 1em;
     box-sizing: border-box;
 }
-.navBar a{
-    font-style: normal;
-}
 .inicio{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1em;
+    text-decoration: none;
+    color: #ffd805;
+
     .pokeball{
         height: 5.5vh;
-    }
-    .inicio_title{
-        color: #ffd805;
-        text-decoration: none;
     }
 }
 .create{
